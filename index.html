@@ -28,9 +28,7 @@
     }
     .flex-container {
         display: flex;
-        background-color: #3F1547;
         justify-content: space-around;
-        padding: 20px;
 
     }
     .header-tittle{
@@ -40,10 +38,61 @@
         margin-bottom: 15px;
     }
     .header-subtittle{
-        color: #FECD23;
+        color: #ebcc5c;
         font-size: 25;
         font-weight: 400;
         margin-bottom: 10px;
+    }
+
+    .col-1{
+        background-color: #3F1547;
+        width: 50%;
+        padding: 20px;
+        color: #CCCCCC;
+
+    }
+
+    .col-2{
+        background-color: #742983;
+        width: 50%;
+        padding: 20px;
+        color: #CCCCCC;
+
+    }
+
+    .subscription-tittle{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .price{
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .month{
+        font-size: 15px;
+        font-style: italic;
+        margin-left: 15px;
+    }
+
+    .button{
+        margin-top: 20px;
+        width: 100%;
+        padding: 15px 32px;
+        color: #4B7CF3;
+        background-color: #CCCCCC;
+        font-size: 18px;
+        border-radius: 4px;
+        border: none;
+
+        cursor: pointer;
+
+    }
+
+    .button:hover{
+        background-color: aquamarine;
     }
 
 </style>
@@ -64,10 +113,23 @@
             </div>
         </div>
         <div class="flex-container">
-            <div>
-                Coluna 1
+            <div class="col-1">
+                <div class="subscription-tittle">
+                    Assinatura mensal:
+                </div>
+
+                <div>
+                    <span class="price">R$ 99,99</span>
+                    <span class="month">por mês.</span>
+                </div>
+
+                <div>
+                    Cancele a qualquer momento.
+                </div>
+
+                <button class="button">Assine Agora</button>
             </div>
-            <div>
+            <div class="col-2">
                 Coluna 2
             </div>
         </div>
