@@ -1,0 +1,118 @@
+body {
+    background-color: #CCCCCC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    background-color: #a38da7;
+    margin: auto;
+    margin-top: 500;
+
+    width: 600px;
+    box-shadow: 1px 3px 8px 1px rgba(0 ,0 ,0 ,0.2 );
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.header{
+    padding: 2.5rem;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+.header-tittle{
+    color: #FECD23;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.9rem;
+}
+.header-subtittle{
+    color: #ebcc5c;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+}
+
+.col-1{
+    background-color: #3F1547;
+    width: 50%;
+    padding: 1.2rem;
+    color: #CCCCCC;
+
+}
+
+.col-2{
+    background-color: #742983;
+    width: 50%;
+    padding: 0.6rem 1.2rem;
+    color: #CCCCCC;
+
+}
+
+.subscription-tittle{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.price{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.month{
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-left: 0.9rem;
+}
+
+.button{
+    margin-top: 1.2rem;
+    width: 100%;
+    padding: 0.9rem 2rem;
+    color: #4B7CF3;
+    background-color: #CCCCCC;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.button:hover{
+    background-color: aquamarine;
+}
+
+.image-group{
+    text-align: center;
+
+}
+@media screen and (max-width: 620px){
+    html {
+        font-size: 14px;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .col-1, .col-2 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 95%;
+    }
+    
+    .form-register{
+        background-color: aquamarine;
+        padding: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+    }
+}
+
