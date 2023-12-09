@@ -23,7 +23,7 @@
     }
 
     .header{
-        padding: 40px;
+        padding: 2.5rem;
 
     }
     .flex-container {
@@ -33,21 +33,21 @@
     }
     .header-tittle{
         color: #FECD23;
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 700;
-        margin-bottom: 15px;
+        margin-bottom: 0.9rem;
     }
     .header-subtittle{
         color: #ebcc5c;
-        font-size: 25;
+        font-size: 1.2rem;
         font-weight: 400;
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
     }
 
     .col-1{
         background-color: #3F1547;
         width: 50%;
-        padding: 20px;
+        padding: 1.2rem;
         color: #CCCCCC;
 
     }
@@ -55,35 +55,35 @@
     .col-2{
         background-color: #742983;
         width: 50%;
-        padding: 10px 20px;
+        padding: 0.6rem 1.2rem;
         color: #CCCCCC;
 
     }
 
     .subscription-tittle{
-        font-size: 20px;
+        font-size: 1.2rem;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 1.2rem;
     }
 
     .price{
-        font-size: 26px;
+        font-size: 1.6rem;
         font-weight: 700;
     }
 
     .month{
-        font-size: 15px;
+        font-size: 0.9rem;
         font-style: italic;
-        margin-left: 15px;
+        margin-left: 0.9rem;
     }
 
     .button{
-        margin-top: 20px;
+        margin-top: 1.2rem;
         width: 100%;
-        padding: 15px 32px;
+        padding: 0.9rem 2rem;
         color: #4B7CF3;
         background-color: #CCCCCC;
-        font-size: 18px;
+        font-size: 1rem;
         border-radius: 5px;
         border: none;
 
@@ -99,6 +99,22 @@
         text-align: center;
 
     }
+    @media screen and (max-width: 620px){
+        html {
+            font-size: 14px;
+        }
+        .flex-container{
+            flex-direction: column;
+        }
+        .col-1, .col-2 {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 95%;
+        }
+    }
+   
 
 </style>
 
